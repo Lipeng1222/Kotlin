@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+    fun onClick(view :android.view.View){
+
+    }
 
 
     fun fun1():Int{
