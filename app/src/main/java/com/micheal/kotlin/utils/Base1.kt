@@ -2,8 +2,6 @@ package com.micheal.kotlin.utils
 
 class Base1{
 
-
-
     constructor(){
 
     }
