@@ -1,5 +1,6 @@
 package com.micheal.kotlin
 
+import com.micheal.kotlin.utils.Base1
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -14,4 +15,11 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+    @Test
+    fun  testAdd(){
+        println(Base1.add(1,2));
+        assertEquals(3, Base1.add(1,2))
+    }
+
 }
