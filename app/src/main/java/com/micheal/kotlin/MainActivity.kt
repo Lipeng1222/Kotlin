@@ -5,8 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.content.Intent
 import com.micheal.library.IndexActivity
-import kotlinx.android.synthetic.main.activity_main.*
-import java.util.jar.Manifest
 
 class MainActivity : AppCompatActivity() {
 
