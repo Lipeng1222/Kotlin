@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.content.Intent
+import com.micheal.library.IndexActivity
+import kotlinx.android.synthetic.main.activity_main.*
+import java.util.jar.Manifest
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,8 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun onClick(view :android.view.View){
-
+    fun onClick(view : View){
+//        message.text="好难用啊"
+        var intent:Intent=Intent();
+        intent.setClass(this, IndexActivity::class.java)
+        startActivity(intent)
     }
 
 
